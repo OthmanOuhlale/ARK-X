@@ -1,0 +1,10 @@
+i work in my project with mvc structure: 
+    ---> Controller:
+            --> Authentication.js
+            --> blogController.js
+    ---> Routes: 
+            --> authRoutes.js
+            --> blogsRoutes.js
+    ---> index.js
+    ---> users.json
+    ---> blogs.json

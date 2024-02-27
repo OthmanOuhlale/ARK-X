@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "TechTrends",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi."
+  },
+  {
+    "id": 2,
+    "name": "TravelTales",
+    "content": "Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices velit, sit amet ultricies velit eros vel odio. Donec vitae."
+  },
+  {
+    "id": 3,
+    "name": "FoodFiesta",
+    "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor."
+  }
+]

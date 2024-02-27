@@ -1,0 +1,56 @@
+index.js -----------------------------------------------
+
+const express = require('express');
+const app = express();
+
+app.use('/users', userRoutes)
+
+port = 3000;
+app.listen(port, ()=>{
+    console.log('listen in port '+port);
+});
+
+
+routes.js ---------------------------------------------
+const express = require('express');
+const {getUsers, createUsers, deleteUsers, updateUsers} = require('../Controller/userController.js) ;
+
+const userRoutes = express.Router();
+
+userRoutes.get('/', getUsers);
+userRoutes.post('/', createUsers);
+userRoutes.delete('/', deleteUsers);
+userRoutes.put('/', updateUsers);
+
+modules.export = userRoutes;
+
+
+userModel.js ------------------------------------------
+
+class users = require('/users.json');
+
+class UserModel {
+
+    static getAllUsers(){
+        return users;
+    }
+
+    static createUsers(){
+
+    }
+
+
+}
+
+userController.js -------------------------------------
+
+const userModel = require('../models/userModel');
+
+async function getAllUsers(req, res){
+    users = await userModel.getAllUsers();
+    res.status(200).json(users)
+}
+
+function createUsers(req, res){
+    const id = req.params.id;
+}

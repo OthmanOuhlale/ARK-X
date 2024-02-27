@@ -1,0 +1,80 @@
+[
+  {
+    "accountID": "ACC1001",
+    "name": "John Doe",
+    "pin": "1234",
+    "balance": 1500,
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 500,
+        "date": "2024-02-01"
+      },
+      {
+        "type": "withdraw",
+        "amount": 200,
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "accountID": "ACC1002",
+    "name": "Jane Smith",
+    "pin": "4321",
+    "balance": 2200,
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 1000,
+        "date": "2024-02-03"
+      },
+      {
+        "type": "withdraw",
+        "amount": 300,
+        "date": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "accountID": "ACC1003",
+    "name": "Othman Ouhlale",
+    "pin": "8172",
+    "balance": 1900,
+    "transactions": []
+  },
+  {
+    "accountID": "ACC1004",
+    "name": "Othman Ouhlale",
+    "pin": "6491",
+    "balance": 1900,
+    "transactions": []
+  },
+  {
+    "name": "Othman Ouhlale",
+    "balance": 1900,
+    "transactions": [],
+    "accountID": "ACC1005",
+    "pin": "8155"
+  },
+  {
+    "name": "Othman Ouhlale",
+    "balance": 1900,
+    "transactions": [],
+    "accountID": "ACC1006",
+    "pin": "9878"
+  },
+  {
+    "name": "Othman Ouhlale",
+    "balance": 1900,
+    "transactions": [],
+    "accountID": "ACC1007",
+    "pin": "4315"
+  },
+  {
+    "name": "Othman Ouhlale",
+    "balance": 1900,
+    "transactions": [],
+    "accountID": "ACC1008",
+    "pin": "7043"
+  }
+]
